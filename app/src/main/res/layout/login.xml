@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_Icon"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quizzer"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Log_ET_Login"
+        android:layout_width="310dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:hint="Login.."
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/Log_ET_Pswd"
+        android:layout_width="310dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Password.."
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Log_B_Login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Authenticate"
+            app:backgroundTint="#328CD1"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/Log_B_SingUp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Create new Account"
+            android:textColor="#328CD1"
+            app:backgroundTint="#B4EDFF"
+            app:cornerRadius="30dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

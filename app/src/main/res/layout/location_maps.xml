@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationMaps">
+
+    <fragment
+        android:id="@+id/GoogleMaps_fragement"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="Go back"
+            android:focusable="true"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</RelativeLayout>

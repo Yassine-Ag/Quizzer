@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "537715363522",
+    "project_id": "quizzer-official",
+    "storage_bucket": "quizzer-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537715363522:android:4016f78fd3d45b79bb355b",
+        "android_client_info": {
+          "package_name": "ma.emsi.Quizzer_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537715363522-2pi35vi5aeah86jdaq3dggdqpp0gl9di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOGOZkltctjKsrt8Thb8vmgaM81TEnj90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537715363522-2pi35vi5aeah86jdaq3dggdqpp0gl9di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537715363522:android:b6d1c35f250cc44abb355b",
+        "android_client_info": {
+          "package_name": "ma.emsi.my_quizzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537715363522-2pi35vi5aeah86jdaq3dggdqpp0gl9di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOGOZkltctjKsrt8Thb8vmgaM81TEnj90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537715363522-2pi35vi5aeah86jdaq3dggdqpp0gl9di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537715363522:android:d80cf402c9404ac8bb355b",
+        "android_client_info": {
+          "package_name": "ma.emsi.quizzer_official"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537715363522-2pi35vi5aeah86jdaq3dggdqpp0gl9di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOGOZkltctjKsrt8Thb8vmgaM81TEnj90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537715363522-2pi35vi5aeah86jdaq3dggdqpp0gl9di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
